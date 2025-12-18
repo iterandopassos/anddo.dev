@@ -1,0 +1,27 @@
+/* Garante que o container use a altura total da tela */
+.loading-container {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000; /* Fundo Preto */
+    
+    /* Centralização com Flexbox */
+    display: flex;
+    flex-direction: column; /* Organiza a imagem e o texto verticalmente */
+    align-items: center;    /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.loading-image {
+    /* Ajuste o tamanho da imagem. Use 'auto' para manter a proporção original da imagem pixelada. */
+    width: 200px; 
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 30px; /* Espaço entre a imagem e o texto */
+}
+
+.loading-text {
+    color: #FFFFFF; /* Texto Branco */
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', 'Open Sans', sans-serif; /* Use fontes profissionais */
+}
